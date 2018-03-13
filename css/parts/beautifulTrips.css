@@ -1,0 +1,34 @@
+.text-center {
+  background: #ebebeb;
+  height: 150px;
+  margin-top: -20px;
+}
+.text-center > h2 {
+  padding-top: 45px;
+  font-family: "BigNoodleTitling";
+  text-transform: uppercase;
+  color: #606060;
+  font-size: 50px;
+}
+.col-xs-4 {
+  position: relative;
+}
+.col-xs-4 > a:hover {
+  background: rgba(0, 0, 0, 0);
+}
+.col-xs-4 h7,
+.col-xs-4 h9 {
+  font-family: "BigNoodleTitling";
+  font-size: 46px;
+  position: relative;
+  top: 35%;
+  left: 25%;
+  transform: translate(-50% -50%);
+  color: #fff;
+}
+.col-xs-4 h9 {
+  font-size: 20px;
+  font-family: sans-serif, arial;
+  top: 50%;
+  left: 30%;
+}
