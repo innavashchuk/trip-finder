@@ -120,7 +120,7 @@ header {
 }
 .header-center-text {
   position: absolute;
-  top: 50%;
+  top: 46%;
   transform: translateY(-50%);
   color: #fff;
   width: 51%;
@@ -134,6 +134,8 @@ header {
 .header-center h4 {
   font-size: 30px;
   font-family: "Open Sans";
+  width: 88%;
+  margin-left: 25px;
 }
 .header-footer {
   background-color: rgba(75, 149, 230, 0.85);
@@ -147,7 +149,7 @@ header {
   width: 100%;
 }
 .header-footer-text {
-  width: 51%;
+  width: 35%;
   margin-left: 22px;
   position: absolute;
   top: 50%;
