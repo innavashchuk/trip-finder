@@ -29,7 +29,7 @@
   right: 0;
   width: 100%;
   height: 700px;
-  opacity: 0.25;
+  opacity: 2.25;
   z-index: 1;
 }
 .type-tour-pic {
@@ -42,12 +42,13 @@
 .type-tour-pic img {
   width: 100%;
   height: 100%;
+  filter: brightness(80%);
 }
 .type-tour-pic h3 {
   color: #fff;
   position: absolute;
   top: 67px;
-  left: 34px;
+  left: 54px;
   right: 0;
   font-family: "BigNoodleTitling";
   text-transform: uppercase;
