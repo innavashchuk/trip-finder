@@ -150,7 +150,7 @@ header {
 }
 .header-footer-text {
   width: 35%;
-  margin-left: 22px;
+  margin-left: 35px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
