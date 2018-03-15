@@ -1,32 +1,81 @@
-.text-center {
+/*.container-fluid {
+  .text-center {
+    background: #ebebeb;
+    height: 150px;
+    margin-top: -20px;
+    > h2 {
+      padding-top: 45px;
+      font-family: "BigNoodleTitling";
+      text-transform: uppercase;
+      color: #606060;
+      font-size: 50px;
+    }
+  }
+  .row {
+    .col-xs-4 {
+      position: relative;
+      > a:hover {
+        background: rgba(0, 0, 0, 0, 0.75);
+      }
+      &h7, &h9 {
+        font-family: "BigNoodleTitling";
+        font-size: 46px;
+        position: relative;
+        top: 35%;
+        left: 25%;
+        transform: translate(-50% -50%);
+        color: #fff;
+      }
+      &h9 {
+        font-size: 20px;
+        font-family: sans-serif, arial;
+        top: 50%;
+        left: 30%
+      }
+    }
+  }
+}*/
+
+.container-fluid {
   background: #ebebeb;
-  height: 150px;
-  margin-top: -20px;
-  > h2 {
-    padding-top: 45px;
-    font-family: "BigNoodleTitling";
-    text-transform: uppercase;
-    color: #606060;
-    font-size: 50px;
-  }	}
-.col-xs-4 {
-  position: relative;
-  > a:hover {
-    background: rgba(0, 0, 0, 0, 0.75);
+  padding: 0;
+
+  .text-center {
+    height: 150px;
+    > h2 {
+      padding-top: 45px;
+      font-family: "BigNoodleTitling";
+      text-transform: uppercase;
+      color: #606060;
+      font-size: 50px;
+    }
   }
 
-h7, h9 {
-  font-family: "BigNoodleTitling";
-  font-size: 46px;
-  position: relative;
-  top: 35%;
-  left: 25%;
-  transform: translate(-50% -50%);
-  color: #fff;
+  .row {
+    .col-xs-4 {
+      position: relative;
+      filter: brightness(50%);
+      a {
+        text-decoration: none;
+      }
+      .text-content {
+        margin-top: -90%;
+        padding-top: 277px;
+        left: 25%;
+        //transform: translate(-50% -50%);
+      }
+      h4, h5 {
+        font-family: "BigNoodleTitling";
+        font-size: 36px;
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        margin-bottom: 50px;
+      }
+      h5 {
+        font-size: 16px;
+        font-family: sans-serif, arial;
+      }
+    }
+  }
 }
-h9 {
-  font-size: 20px;
-  font-family: sans-serif, arial;
-  top: 50%;
-  left: 30%
-}}
