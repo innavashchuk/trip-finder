@@ -1,0 +1,62 @@
+.container-fluid {
+  background: #ebebeb;
+  padding: 0;
+}
+.container-fluid .text-center {
+  height: 150px;
+}
+.container-fluid .text-center > h2 {
+  padding-top: 45px;
+  font-family: "BigNoodleTitling";
+  text-transform: uppercase;
+  color: #606060;
+  font-size: 50px;
+}
+.container-fluid .row .col-xs-4 {
+  position: relative;
+}
+.container-fluid .row .col-xs-4 a {
+  text-decoration: none;
+}
+.container-fluid .row .col-xs-4 .img-trips {
+  filter: brightness(50%);
+}
+.container-fluid .row .col-xs-4 .text-content {
+  margin-top: -92%;
+  padding-top: 245px;
+  text-align: center;
+}
+.container-fluid .row .col-xs-4 .text-content-1-2 {
+  margin-top: -103%;
+  padding-top: 245px;
+  text-align: center;
+}
+.container-fluid .row .col-xs-4 .additional-text-1 {
+  margin-bottom: 110px;
+}
+.container-fluid .row .col-xs-4 .additional-text-1-2 {
+  margin-bottom: 140px;
+}
+.container-fluid .row .col-xs-4 h4,
+.container-fluid .row .col-xs-4 h5 {
+  font-family: "BigNoodleTitling";
+  font-size: 36px;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+.container-fluid .row .col-xs-4 h5 {
+  font-size: 16px;
+  font-family: sans-serif, arial;
+}
+.container-fluid .row .col-xs-4 .btn-blue-1 {
+  background-color: #006fe6;
+  height: 45px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  width: 150px;
+  position: relative;
+  margin-top: -240px;
+}
