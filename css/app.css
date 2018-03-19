@@ -469,7 +469,6 @@ header {
   color: #606060;
 }
 footer {
-  /*background:url("../img/banner.jpg") no-repeat;*/
   height: 1030px;
   width: 100%;
 }
@@ -565,30 +564,17 @@ footer {
   margin: 0;
   padding: 0;
 }
-.footer-img-circle {
-  height: 160px;
+.footer-img .footer-img-circe {
+  height: 140px;
+  width: 140px;
   top: 60%;
   left: 50%;
-  transform: translateX(-50%);
-  width: 160px;
   border-radius: 50%;
+  transform: translateX(-50%);
   background-color: #47a0ff;
+  border: none;
   position: absolute;
-  text-transform: uppercase;
-}
-.footer-img-circle h6 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
-  white-space: nowrap;
-  padding: 0;
   font-size: 16px;
-  font-family: "OpenSans";
-  font-weight: bold;
-  color: #ffffff;
-}
-.content-center {
-  border: 1px solid red;
+  color: #fff;
+  text-transform: uppercase;
 }
