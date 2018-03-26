@@ -362,6 +362,7 @@ header {
   text-decoration: none;
 }
 .container-fluid .row .col-xs-4 .img-trips {
+  -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 .container-fluid .row .col-xs-4 .text-content {
